@@ -1,0 +1,84 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Forecast App</title>
+    <link href="weatherapp.css" rel="stylesheet" />
+    <link rel=icon href="images/favicon.ico" sizes="9x9" type="images/png">
+   
+   
+</head>
+<body>
+    <div id="header" class="header">
+           <h3>Weather Forecast </h3> 
+            <span id="city_name"><span>
+    </div>
+    <div id="instructions">Enter your city name</div>
+    <div id="input_line">
+        <input type="text" id="input_city_name"></input>
+        <input id="input_button" type="button" value="Enter"></input>
+    </div>
+    
+    <!-- divs next to each other to close up space -->
+    <div id="set_columns">
+        <div class="display_condition">
+            <h3 id="day0"></h3>
+            <h2 id="high0"></h2>
+            <h2 id="low0"></h2>
+            <img id="weather_img_icon0" width="75px"/>
+            <h3 id="weather_desc0"></h3> 
+            <h2 id="humidity0"></h2>
+            <h2 id="pressure0"></h2>
+            <h2 id="speed0"></h2>
+            
+            
+        </div>
+        <div class="display_condition">
+            <h3 id="day1"></h3>
+            <h2 id="high1"></h2>
+            <h2 id="low1"></h2>
+            <img id="weather_img_icon1" width="75px"/>
+            <h3 id="weather_desc1"></h3> 
+            <h2 id="humidity1"></h2>
+            <h2 id="pressure1"></h2>
+            <h2 id="speed1"></h2>
+        </div>
+        <div class="display_condition">
+            <h3 id="day2"></h3>
+            <h2 id="high2"></h2>
+            <h2 id="low2"></h2>
+            <img id="weather_img_icon2" width="75px"/>
+            <h3 id="weather_desc2"></h3> 
+            <h2 id="humidity2"></h2>
+            <h2 id="pressure2"></h2>
+            <h2 id="speed2"></h2>
+        </div>
+        <div class="display_condition">
+            <h3 id="day3"></h3>
+            <h2 id="high3"></h2>
+            <h2 id="low3"></h2>
+            <img id="weather_img_icon3" width="75px"/>
+            <h3 id="weather_desc3"></h3> 
+            <h2 id="humidity3"></h2>
+            <h2 id="pressure3"></h2>
+            <h2 id="speed3"></h2>
+        </div>
+        <div class="display_condition">
+            <h3 id="day4"></h3>
+            <h2 id="high4"></h2>
+            <h2 id="low4"></h2>
+            <img id="weather_img_icon4" width="75px"/>
+            <h3 id="weather_desc4"></h3> 
+            <h2 id="humidity4"></h2>
+            <h2 id="pressure4"></h2>
+            <h2 id="speed4"></h2>>
+        </div>
+    </div>
+    
+    <!-- These are the JavaScript links -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="weatherapp.js"></script>
+</body>
+</html>
